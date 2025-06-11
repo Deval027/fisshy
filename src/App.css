@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Tahoma";
+  src: url('/src/assets/font/tahoma.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+#root {
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: auto;
+  font-smooth: never;
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#container{
+  background-color: #fffef5;
+  border-radius: 5px;
+  max-height: 386px;
+  max-width: 525px;
+}
+
+#expectancy{
+  background-color: #3261f4;
+  min-height: 22px;
+  position: relative;
+  border-radius: 5px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* aligns text to the bottom */
+  align-items: flex-start;   /* aligns text to the left */
+}
+
+#prompt{
+  position: relative;
+  background-color: #fffef5;
+  color: black;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin: 12px;
+  min-width: 0px;
+  border-color: black;
+  cursor: pointer;
+  right: 90px;
+}
+
+#closeX{
+  background-color: transparent;
+  border: transparent;
+  max-height: 64px;
+  min-height: 64px;
+  position: absolute;
+  top: -16px;
+  right: -21px;
+  cursor: pointer;
+}
+#xp{
+  max-height: 64px;
+  min-height: 64px; 
+}
+
+#warning{
+  filter: blur(0.2px);
+  margin: 0;
+  color: #fafada;
+}
+
+#fishy{
+  position: relative;
+  left: 90px;
+  max-width: 171px;
+  max-height: 220px;
+  bottom: 20px;
+}
+
+#fissh{
+  filter: blur(0.3px);
+  position: relative;
+  right: 70px;
+}
+
+#question1{
+  position: absolute;
+  left: 210px;
+  bottom: 230px;
+  max-height: 64px;
+  min-height: 64px; 
+  background-color: transparent;
+  border: transparent;
+}
+#question2{
+  position: absolute;
+  max-height: 64px;
+  min-height: 64px; 
+  background-color: transparent;
+  border: transparent;
+}
