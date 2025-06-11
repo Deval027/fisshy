@@ -8,9 +8,9 @@ function App() {
   return (
     <div id="container">
       <Expectancy />
-      <Close id="question1" iconX="/fisshy/_.png" question="question2"/>
+      <Close id="question1" iconX="_.png" question="question2"/>
       <p id="fissh">fissh</p>
-      <img src='/doesfishpng.png' alt='entity' id="fishy" ></img>
+      <img src='doesfishpng.png' alt='entity' id="fishy" ></img>
       <Btn label="ok" />
 
       <Btn label="ok" />

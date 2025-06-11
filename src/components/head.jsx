@@ -3,7 +3,7 @@ export function Expectancy( {iconX}) {
         <div id="expectancy">
             <p id="warning">WARNING</p>
             <button id="closeX">
-                <img id="xp" src="/closexp.png" alt="Close" />
+                <img id="xp" src="closexp.png" alt="Close" />
             </button>
         </div>
 
