@@ -1,6 +1,6 @@
 {
-  "name": "my-react-app",
-  "private": true,
+  "name": "fisshy",
+  "homepage": "https://deval027.github.io/fisshy/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
